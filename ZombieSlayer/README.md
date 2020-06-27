@@ -36,12 +36,12 @@
 ### Enemy 스크립트를 이용한 다양한 좀비
 - 좀비들은 Enemy 스크립트를 상속받아 필요한 부분만을 Override 하여 사용하였습니다. 
 ### 라이트맵 활용
-- 모바일 최적화를 위해 라이트 스태틱을 적용하여 라이트맵을 Bake하여 사용하였습니다.
+- 모바일 최적화를 위해 라이트 스태틱을 적용하여 라이트맵을 Bake하여 사용하였습니다.   
 <img src="./Image/라이트맵.PNG"></img>
 
 ### 보조무기와 주무기 애니메이션 분리
 - 보조무기와 주무기를 처리하는 다른 애니메이션 적용을 위해 Animator의 Layer를 분리하여 사용하는 Layer의 Weight를 주어 서로 다른 애니메이션이 구동되도록 하였습니다. Weight 값을 통해 보조무기와 주무기의 서로 다른 애니메이션을 처리하고 Parameter는 공유하여 사용하였습니다.
-    - Layers
+    - Layers   
     <img src="./Image/레이어.PNG"></img>
     - Parameters  
     <img src="./Image/파라미터.PNG"></img>
